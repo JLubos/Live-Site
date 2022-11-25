@@ -265,6 +265,12 @@ a {
 
 .education li .company-title {
     width: 450px;
+    max-width: 450px;
+}
+
+.exp-container li #ut {
+    width: 450px;
+    max-width: 450px;
 }
 
 
@@ -281,8 +287,10 @@ a {
 
 .contact-container {
     display: flex;
-    padding-left: 4em;
+    padding: 2em;
     justify-content: center;
+    max-width: 70%;
+    margin: 0 auto;
 
 }
 
